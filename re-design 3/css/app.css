@@ -1,0 +1,223 @@
+#content {
+    background-color: #FFF;
+    width: 945px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: right top;
+    overflow: hidden;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+style.css:5
+body, td, p, ol {
+    font-size: 10pt;
+    Color: #333;
+    line-height: 1.5;
+}
+
+element.style {
+    margin-left: 37px;
+    margin-top: 23px;
+}
+style.css:44
+#tit {
+    background-position: left top;
+    background-repeat: no-repeat;
+    width: 630px;
+    height: 43px;
+    padding-left: 50px;
+    font-size: 14pt;
+    color: #333;
+    font-weight: bold;
+    padding-top: 15px;
+    float: left;
+    margin-bottom: 20px;
+}
+P{
+  display: inline;
+}
+h6{
+  style="color:#333333;
+  font-size:11pt;
+  font-weight:bold;"
+}
+section{
+  color:#FF9900;
+  font-size:15pt;
+  font-weight:bold;
+  margin-bottom:15px;"
+}
+figure{
+  padding: 0px 0px 0px 0px
+}
+
+h1{
+  font-family: 'Bevan', cursive;
+}
+.active {
+    background-color: #4CAF50 !important;
+}
+a:link {
+    color: #68825b;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    text-decoration-color: lightgreen !important;
+}
+a:hover{
+    color: #f8d462;
+    background-color: #2c4b45;
+    text-decoration: underline;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+a:active{
+    color: #f8d462;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ul{
+    font-family: 'Timmana', sans-serif;
+    font-size: 1.2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.icon-bar {
+    width: 100%;
+    overflow: auto;
+}
+.icon-bar a {
+    float: right;
+    width: 3%;
+    text-align: center;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 900px)
+
+{
+
+  figure{
+    padding: 0px 0px 0px 300px
+  }
+.large-collapse{
+  background-image: url("../image/nav_w.jpg")!important;
+  position: relative;
+}
+.large-collapse{
+position: relative;
+}
+.icon-bar a:hover {
+    background-color: #2c4b45;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
+a:link {
+    color: #68825b;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    text-decoration-color: lightgreen !important;
+}
+a:hover{
+    color: #f8d462;
+    background-color: #2c4b45;
+    text-decoration: underline;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+}
+
+
+a:active{
+    color: #f8d462;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ul{
+    font-family: 'Timmana', sans-serif;
+    font-size: 1.2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+#bigText{
+font-family: 'Pacifico', cursive;
+font-size: 70px;
+position: relative;
+}
+
+#logo{
+font-size: 15px;
+}
+
+#top-bar-right {
+margin-top: 100px 150px 100px 80px;
+}
+.button {
+width: 100px;
+}
+
+.placeholder {
+  width: 20px;
+}
+
+.header {
+  align-items: center;
+}
+#calloutprimary {
+  color: yellow;
+}
+.no-js .top-bar {
+
+  display: none;
+}
+  .deviceWidth {width:280px!important; padding:0;}
+  .center {text-align: center!important;}
+}
+
+  .no-js .top-bar {
+    display: block;
+  }
+
+  .no-js .title-bar {
+    display: none;
+  }
+}
+
+
+
+footer {
+position:  relative;
+}
+#copyright {
+  position: absolute;
+}
