@@ -1,0 +1,145 @@
+body {margin: 0}
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px 0px 0px 0px;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 150%;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.sidenav li a.active {
+    background-color: black;
+    color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: black;
+    color: white;
+}
+
+div.content {
+    margin-left: 10%;
+    padding: 1px 16px;
+    height: 100px;
+}
+img{
+  position: absolute;
+  margin-left: 500px;
+  top: 300px;
+}
+h2{
+  position: fixed;
+  display: inline;
+  text-align:center;
+  text-overflow: ellipsis;
+  font-size: 200%;
+  padding: 50px 100px 0px 100px;
+  margin: 50px 100px 0px 100px;
+  font-family: 'Kumar One', cursive;
+}
+
+p{
+  font-size: 150%;
+  padding: 400px 150px 0px 150px;
+  margin: 400px 150px 0px 150px;
+  text-align: center;
+  display: inline;
+  position: fixed;
+  font-family: 'Chewy', cursive;
+}
+footer {
+padding: 500px 30px 0px 30px;
+margin: 500px 30px 0px 30px;
+text-align:center;
+position: relative;
+}
+.wapper{
+  height: 500px;
+  width: 500px;
+  position: absolute;
+}
+.music-note,#one{
+position: absolute;
+margin-left: 500px;
+margin-top: 50px;
+  animation: note-anim1  4s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#two {
+margin-left: 300px;
+margin-top: 30px;
+  animation: note-anim1  1s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#three{
+margin-left: 300px;
+margin-top: 150px;
+  animation: note-anim1  2s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#four{
+margin-left: 400px;
+margin-top: 300px;
+  animation: note-anim1 3s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#five{
+margin-left: 500px;
+margin-top: 300px;
+  animation: note-anim1  2.5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#six{
+margin-left: 300px;
+margin-top: 300px;
+  animation: note-anim1  1.5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#seven{
+margin-left: 300px;
+margin-top: 300px;
+  animation: note-anim1  0.5s infinite ease;
+  animation-fill-mode: forwards;
+
+
+}
+.music-note {
+    position: absolute;
+    font-size: 100px;
+    color:yellow;
+
+
+  }
+  @-webkit-keyframes note-anim1
+
+  {
+    0%,{-webkit-transform:translateY(0);}
+    20%,{-webkit-transform:translateY(-150px);    font-size: 50px;
+        color:pink;}
+    40%{-webkit-transform:translateY(150px)translateX(250px);     font-size: 100px;
+        color:red;}
+    60%{-webkit-transform:translateY(-25px);     font-size: 150px;
+        color:green;}
+    80%{-webkit-transform:translateY(25px)translateX(-50px);    font-size: 200px;
+        color:blue;}
+    100%{-webkit-transform:translateY(0px);font-size: 50px;
+          color:black;}
+}

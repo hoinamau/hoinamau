@@ -1,0 +1,211 @@
+body {margin: 0}
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 40px 0px 0px 0px;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-size: 150%;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.sidenav li a.active {
+    background-color: black;
+    color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: black;
+    color: white;
+}
+
+div.content {
+    margin-left: 10%;
+    padding: 1px 16px;
+    height: 100px;
+}
+img{
+  position: absolute;
+  margin-left: 500px;
+  top: 300px;
+}
+h2{
+  position: fixed;
+  display: inline;
+  text-align:center;
+  text-overflow: ellipsis;
+  font-size: 200%;
+  padding: 100px 150px 0px 150px;
+  margin: 100px 150px 0px 150px;
+  font-family: 'Kumar One', cursive;
+}
+
+p{
+  font-size: 150%;
+  padding: 400px 150px 0px 150px;
+  margin: 400px 150px 0px 150px;
+  text-align: center;
+  display: inline;
+  position: fixed;
+  font-family: 'Chewy', cursive;
+}
+footer {
+padding: 500px 30px 0px 30px;
+margin: 500px 30px 0px 30px;
+text-align:center;
+position: relative;
+}
+.music-note,#one{
+position: absolute;
+margin-left: 300px;
+margin-top: 300px;
+  animation: note-anim1  1s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#two{
+  margin-left: 600px;
+  margin-top: 300px;
+  animation: note-anim2  1s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#four{
+  margin-left: 900px;
+  margin-top: 300px;
+  animation: note-anim5 4s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#three{
+  margin-left: 1200px;
+  margin-top: 300px;
+  animation: note-anim4  5s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+.music-note,#five{
+  margin-left: 1500px;
+  margin-top: 300px;
+  animation: note-anim3 1s infinite ease;
+  animation-fill-mode: forwards;
+
+}
+
+.music-note {
+    position: absolute;
+    font-size: 150px;
+    color:green;
+
+  }
+  @-webkit-keyframes note-anim1
+  {
+
+  30%
+   {
+    opacity: 1;
+    transform: scale(1, 1) translateY(25%);color:red;
+  }
+  60% {
+    opacity: 1;
+    transform: scale(3, 3) translateY(0%);
+  }
+  90% {
+    opacity: 1;
+    transform: scale(2, 2) translateY(-25%); color:blue;
+}
+}
+@-webkit-keyframes note-anim2
+{
+0%,{ opacity: 1;
+  transform: scale(1, 1) translateY(25);color:blue}
+
+30%,50%{
+  opacity: 1;
+  transform: scale(3, 3) translateY(0);
+}
+60%
+ {
+  opacity: 1;
+  transform: scale(3, 3) translateY(-15);
+}
+
+90%,100% {
+  opacity: 1;
+  transform: scale(3, 3) translateY(-25%); color:yellow;
+}
+}
+@-webkit-keyframes note-anim3
+{
+0%{ opacity: 1;
+  transform: scale(1, 1) translateY(25);color:yellow;}
+
+30% ,50% {
+  opacity: 1;
+  transform: scale(1, 1) translateY(25%);
+}
+20%,40%
+ {
+  opacity: 1;
+  transform: scale(3, 3) translateX(0);
+}
+
+80% {
+  opacity: 1;
+  transform: scale(3, 3) translateY(-25%); color:green;
+
+}
+}
+@-webkit-keyframes note-anim4
+
+{
+  0%{ opacity: 1;
+    transform: scale(1, 1) translateY(25);color:green}
+30% ,50% {
+  opacity: 1;
+  transform: scale(1, 1) translateY(0);
+}
+20%,40%
+ {
+  opacity: 1;
+  transform: scale(3, 3) translateX(0);
+}
+
+80% {
+  opacity: 1;
+  transform: scale(3, 3) translateY(-25%); color:lightblue;
+
+}
+}
+@-webkit-keyframes note-anim5
+
+{
+  0%{ opacity: 1;
+    transform: scale(1, 1) translateY(25);color:lightblue}
+
+30% ,50% {
+  opacity: 1;
+  transform: scale(1, 1) translateX(0);
+}
+20%,40%
+ {
+  opacity: 1;
+  transform: scale(3, 3) translateX(0);
+}
+
+80% {
+  opacity: 1;
+  transform: scale(3, 3) ; color:black;
+
+}
+}
