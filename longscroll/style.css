@@ -1,0 +1,113 @@
+html{
+  background-image: url("image/bg1.jpg");
+}
+#wrapper{
+  height:10000px;
+  position:relative;
+  margin:0 auto;
+  top:200px;
+}
+.sou{
+  font-size: 200%;
+padding-top: 7000px;
+padding-left: 1000px;
+}
+h1{
+  padding-top: 140px;
+  padding-left: 100px;
+}
+
+.text1{
+  padding-top: 10px;
+  padding-left: 1350px;
+  position: absolute;
+}
+.text2{
+
+  padding-top: 3700px;
+  padding-left: 1300px;
+}
+.text3{
+
+  padding-top: 5300px;
+  padding-left: 700px;
+}
+.text4{
+
+padding-top: 5700px;
+padding-left: 200px;
+}
+.text5{
+
+padding-top: 6650px;
+padding-left: 500px;
+}
+.frist{
+  height:2000px;
+  position:absolute;
+  padding-top: 140px;
+  padding-left: 1025px;
+}
+.second{
+  margin-top:4000px;
+  height:2000px;
+  position:absolute;
+  padding-left: 1070px;
+}
+.third{
+  margin-top: 5000px;
+  width:1000px;
+  height:2000px;
+  padding-left: 1070px;
+  position:absolute;
+
+}
+.fourth{
+  margin-top: 6000px;
+    width:1000px;
+    height:2000px;
+  position:absolute;
+  padding-left: 1070px;
+}
+.fifth{
+  margin-top: 7000px;
+    width:1000px;
+    height:2000px;
+  position:absolute;
+  padding-left: 1070px;
+}
+.six{
+  margin-top: 6500px;
+    width:1000px;
+    height:2000px;
+  position:absolute;
+  padding-left: 1070px;
+}
+img{
+  position:absolute;
+}
+
+#three{
+  position: fixed;
+    top:275px;
+    left:1020px;
+}
+
+#six
+{position: fixed;
+    top:565px;
+    left:1020px;
+}
+#two{
+  display: inherit;
+}
+#four{
+  display: inherit;
+}
+
+#five{
+  display: inherit;
+}
+#one{
+  display: inherit;
+}
